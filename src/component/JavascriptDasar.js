@@ -90,6 +90,12 @@ export default function JavascriptDasar() {
       filterid.map((element) =>
         console.log("filter berdasarkan id = 1, " + element["nama"])
       );
+      console.log("reduce");
+      const total = array.reduce(function (acc, currentitem) {
+        return (acc += currentitem.id);
+      }, 10);
+      console.log(total);
+      console.log("");
     };
     PushData();
     PopData();

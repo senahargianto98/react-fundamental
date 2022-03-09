@@ -14,7 +14,7 @@ export default function SubmitdanInputFunction() {
   return (
     <div>
       <div>
-        <h1>Belajar Input dan Submit React Js Function</h1>
+        <h1>{values}</h1>
         <label>
           Number of guests:
           <input values={values} onChange={(e) => setValues(e.target.value)} />
